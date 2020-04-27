@@ -1,6 +1,8 @@
 // Autodesk Forge configuration
+console.log(process);
 module.exports = {
     // Set environment variables or hard-code here
+    
     credentials: {
         client_id: process.env.FORGE_CLIENT_ID,
         client_secret: process.env.FORGE_CLIENT_SECRET,
